@@ -15,6 +15,8 @@
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
+  <remote name="dynamicdevices"   fetch="https://github.com/DynamicDevices"/>
+
   <project name="poky" remote="yp" path="sources/poky" revision="046b70083f3bc9e25f547e8026400032f5c563d9" upstream="nanbield"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="1750c66ae8e4268c472c0b2b94748a59d6ef866d" upstream="nanbield"/>
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="9b08495e6bcef524789aefb6a7cc80fdfd2ff409" upstream="master"/>
@@ -39,5 +41,7 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="nanbield-6.6.3-1.0.0" />
+
+  <project name="meta-mono" remote="dynamicdevices" path="sources/meta-mono" revision="a0d4b8922f57ef505f1aaa901de2c9b1989b9ab4" upstream="master"/>
 
 </manifest>

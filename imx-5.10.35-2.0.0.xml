@@ -13,6 +13,8 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
   <remote name="dynamicdevices" fetch="https://github.com/dynamicdevices"/>
+
+  <remote name="homeassistant" fetch="https://github.com/meta-homeassistant"/>
   
   <default sync-j="2"/>
   
@@ -37,5 +39,6 @@
 
   <project name="poky" path="sources/poky" remote="yocto" revision="58cbdaecf75b0248f96780b6882e8d4f232d038a"/>
   <project name="meta-mono" path="sources/meta-mono" remote="dynamicdevices" revision="dce12e3eae1f0672355d5bfce972c08ce6305df1"/>
+  <project name="meta-homeassistant" path="sources/meta-homeassistant" remote="homeassistant" revision="159b04f2ca3c828dfe096e39623390c56e209981"/>
 
 </manifest>
